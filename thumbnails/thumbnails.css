@@ -1,0 +1,62 @@
+html, h1, ul, li, a, body, p, title, div, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+
+  font-family: sans-serif;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.thumbnails {
+
+}
+
+div.active {
+  margin: 25px auto;
+  border: 10px solid black;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+
+.gutter-images {
+  margin: 50px auto;
+  height: 100px;
+  width: 400px;
+
+  overflow: hidden;
+}
+
+div.active > img {
+  height: 100%;
+  width: auto;
+}
+
+.gutter-images > img {
+  display: block;
+  float: left;
+  height: auto;
+  width: 20%;
+
+}
+
+
+
+
+
+
+
