@@ -1,0 +1,50 @@
+html, h1, ul, li, a, body, p, title, div, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tabs > li {
+  float: left;
+  padding: 10px;
+}
+
+
+div.tab-pane {
+  display: none;
+}
+
+div.tab-pane.active {
+  display: block;
+  transition: 2s;
+}
+
+a.active {
+  font-weight: bold;
+  transition: 1s;
+}
+
+.transitioning {
+  display: block;
+  opacity: 0;
+
+  transition: 1s;
+}
+
+
+

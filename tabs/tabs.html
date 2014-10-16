@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="tabs.js" type="text/javascript" charset="utf-8"></script>
+
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <ul class='tabs group' data-content-tabs="content-tabs">
+        <li><a href="#werewolf" class="active">Werewolf</a></li>
+        <li><a href="#chupacabra">Chupacabra</a></li>
+        <li><a href="#chihuahua">Chihuahua</a></li>
+    </ul>
+
+    <br></br>
+    <div id="content-tabs">
+      <div class="tab-pane active" id="werewolf">
+          <p>I love Werewolfs, and hairy man-beasts in general</p>
+      </div>
+      <div class="tab-pane" id="chupacabra">
+        <p>Another breed of dog I like is chupacabra because i hate goats</p>
+      </div>
+      <div class="tab-pane" id="chihuahua">
+        <p>I like Chihuahua's because they're in a class of animals I refer to as "Puntables"</p>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        $('.tabs').tabs();
+      })
+    </script>
+
+  </body>
+</html>
